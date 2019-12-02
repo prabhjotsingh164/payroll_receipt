@@ -28,7 +28,7 @@ let employee_code = document.getElementById('emp_code').value;
 
 
 
-   if(employee_code=="F")
+   if(employee_code=="F" || employee_code=="f")
     {
         console.log("Employee Type:"+" Faculty");
         let qualification_code = prompt("Enter Qualification Code");
@@ -75,7 +75,7 @@ let employee_code = document.getElementById('emp_code').value;
           }
       }
     }
-    else if(employee_code=="R")
+    else if(employee_code=="R" || employee_code=="r")
     {
         console.log("Employee Type:"+" Regular");
 
