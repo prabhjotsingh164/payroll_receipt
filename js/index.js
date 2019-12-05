@@ -45,29 +45,29 @@ let employee_code = document.getElementById('emp_code').value;
           net_pay = fixed_salary +2500 -deduction;
           console.log("Deduction:"+deduction);
           console.log("Net Pay:"+net_pay);
-          document.getElementById('employeeNumber').innerHTML=`Employee Number:${employee_number}`;
-          document.getElementById('employeeName').innerHTML=`Employee Name:${employee_name}`;
-          document.getElementById('employeeDepartment').innerHTML=`Department:${employee_department}`;
-          document.getElementById('employeeHours').innerHTML=`Number of hours worked:${employee_number}`;
+          document.getElementById('employeeNumber').innerHTML=`Employee Number: ${employee_number}`;
+          document.getElementById('employeeName').innerHTML=`Employee Name: ${employee_name}`;
+          document.getElementById('employeeDepartment').innerHTML=`Department: ${employee_department}`;
+          document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employee_number}`;
           document.getElementById('employeeType').innerHTML=`Employee Type:Faculty`;
 
-          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$${fixed_salary}`;
-          document.getElementById('employeeDeduction').innerHTML=`Deduction:$${deduction}`;
-          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$${net_pay}`;
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${fixed_salary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deduction}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${net_pay}`;
         }
         else if(fixed_salary<=3000)
           {
             deduction = (fixed_salary*0.25)-19.20;
             net_pay = fixed_salary +2500-deduction;
-            document.getElementById('employeeNumber').innerHTML=`Employee Number:${employee_number}`;
-          document.getElementById('employeeName').innerHTML=`Employee Name:${employee_name}`;
-          document.getElementById('employeeDepartment').innerHTML=`Department:${employee_department}`;
-          document.getElementById('employeeHours').innerHTML=`Number of hours worked:${employee_number}`;
+            document.getElementById('employeeNumber').innerHTML=`Employee Number: ${employee_number}`;
+          document.getElementById('employeeName').innerHTML=`Employee Name: ${employee_name}`;
+          document.getElementById('employeeDepartment').innerHTML=`Department: ${employee_department}`;
+          document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employee_number}`;
           document.getElementById('employeeType').innerHTML=`Employee Type:Faculty`;
 
-          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$${fixed_salary}`;
-          document.getElementById('employeeDeduction').innerHTML=`Deduction:$${deduction}`;
-          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$${net_pay}`;
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${fixed_salary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deduction}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${net_pay}`;
             console.log("Deduction:"+deduction);
               console.log("Net Pay:"+net_pay);
           }
@@ -83,15 +83,15 @@ let employee_code = document.getElementById('emp_code').value;
         {
           deduction = (fixed_salary*0.25)-33;
           net_pay = fixed_salary +2500 -deduction;
-          document.getElementById('employeeNumber').innerHTML=`Employee Number:${employee_number}`;
-          document.getElementById('employeeName').innerHTML=`Employee Name:${employee_name}`;
-          document.getElementById('employeeDepartment').innerHTML=`Department:${employee_department}`;
-          document.getElementById('employeeHours').innerHTML=`Number of hours worked:${employee_number}`;
+          document.getElementById('employeeNumber').innerHTML=`Employee Number: ${employee_number}`;
+          document.getElementById('employeeName').innerHTML=`Employee Name: ${employee_name}`;
+          document.getElementById('employeeDepartment').innerHTML=`Department: ${employee_department}`;
+          document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employee_number}`;
           document.getElementById('employeeType').innerHTML=`Employee Type:Faculty`;
 
-          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$${fixed_salary}`;
-          document.getElementById('employeeDeduction').innerHTML=`Deduction:$${deduction}`;
-          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$${net_pay}`;
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${fixed_salary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deduction}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${net_pay}`;
           console.log("Deduction:"+deduction);
           console.log("Net Pay:"+net_pay);
         }
@@ -99,15 +99,15 @@ let employee_code = document.getElementById('emp_code').value;
           {
             deduction = (fixed_salary*0.25)-19.20;
             net_pay = fixed_salary +2500-deduction;
-            document.getElementById('employeeNumber').innerHTML=`Employee Number:${employee_number}`;
-          document.getElementById('employeeName').innerHTML=`Employee Name:${employee_name}`;
-          document.getElementById('employeeDepartment').innerHTML=`Department:${employee_department}`;
-          document.getElementById('employeeHours').innerHTML=`Number of hours worked:${employee_number}`;
+            document.getElementById('employeeNumber').innerHTML=`Employee Number: ${employee_number}`;
+          document.getElementById('employeeName').innerHTML=`Employee Name: ${employee_name}`;
+          document.getElementById('employeeDepartment').innerHTML=`Department: ${employee_department}`;
+          document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employee_number}`;
           document.getElementById('employeeType').innerHTML=`Employee Type:Faculty`;
 
-          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$${fixed_salary}`;
-          document.getElementById('employeeDeduction').innerHTML=`Deduction:$${deduction}`;
-          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$${net_pay}`;
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${fixed_salary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deduction}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${net_pay}`;
             console.log("Deduction:"+deduction);
               console.log("Net Pay:"+net_pay);
           }
@@ -124,15 +124,15 @@ let employee_code = document.getElementById('emp_code').value;
         
         deduction = (fixed_salary*0.25)-33;
           net_pay = parseInt(fixed_salary) +2500 -deduction;
-          document.getElementById('employeeNumber').innerHTML=`Employee Number:${employee_number}`;
-          document.getElementById('employeeName').innerHTML=`Employee Name:${employee_name}`;
-          document.getElementById('employeeDepartment').innerHTML=`Department:${employee_department}`;
-          document.getElementById('employeeHours').innerHTML=`Number of hours worked:${employee_number}`;
+          document.getElementById('employeeNumber').innerHTML=`Employee Number: ${employee_number}`;
+          document.getElementById('employeeName').innerHTML=`Employee Name: ${employee_name}`;
+          document.getElementById('employeeDepartment').innerHTML=`Department: ${employee_department}`;
+          document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employee_number}`;
           document.getElementById('employeeType').innerHTML=`Employee Type:Faculty`;
 
-          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$${fixed_salary}`;
-          document.getElementById('employeeDeduction').innerHTML=`Deduction:$${deduction}`;
-          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$${net_pay}`;
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${fixed_salary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deduction}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${net_pay}`;
           console.log("Gross Salary:"+fixed_salary);
           console.log("Deduction:"+deduction);
           console.log("Net Pay:"+net_pay);
@@ -144,15 +144,15 @@ let employee_code = document.getElementById('emp_code').value;
             console.log("Gross Salary:"+fixed_salary);
             deduction = (fixed_salary*0.25)-19.20;
               net_pay = parseInt(fixed_salary) + parseFloat(2500 -deduction);
-              document.getElementById('employeeNumber').innerHTML=`Employee Number:${employee_number}`;
-          document.getElementById('employeeName').innerHTML=`Employee Name:${employee_name}`;
-          document.getElementById('employeeDepartment').innerHTML=`Department:${employee_department}`;
-          document.getElementById('employeeHours').innerHTML=`Number of hours worked:${employee_number}`;
+              document.getElementById('employeeNumber').innerHTML=`Employee Number: ${employee_number}`;
+          document.getElementById('employeeName').innerHTML=`Employee Name: ${employee_name}`;
+          document.getElementById('employeeDepartment').innerHTML=`Department: ${employee_department}`;
+          document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employee_number}`;
           document.getElementById('employeeType').innerHTML=`Employee Type:Faculty`;
 
-          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$${fixed_salary}`;
-          document.getElementById('employeeDeduction').innerHTML=`Deduction:$${deduction}`;
-          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$${net_pay}`;
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${fixed_salary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deduction}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${net_pay}`;
               console.log("Deduction:"+deduction);
               console.log("Net Pay:"+net_pay);
           }
@@ -164,15 +164,15 @@ let employee_code = document.getElementById('emp_code').value;
         console.log("Gross Salary:"+total_salary);
         deduction = ((total_salary*0.25)-33).toFixed(2);
           net_pay = (total_salary +2500 -deduction).toFixed(2);
-          document.getElementById('employeeNumber').innerHTML=`Employee Number:${employee_number}`;
-          document.getElementById('employeeName').innerHTML=`Employee Name:${employee_name}`;
-          document.getElementById('employeeDepartment').innerHTML=`Department:${employee_department}`;
-          document.getElementById('employeeHours').innerHTML=`Number of hours worked:${employee_number}`;
+          document.getElementById('employeeNumber').innerHTML=`Employee Number: ${employee_number}`;
+          document.getElementById('employeeName').innerHTML=`Employee Name: ${employee_name}`;
+          document.getElementById('employeeDepartment').innerHTML=`Department: ${employee_department}`;
+          document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employee_number}`;
           document.getElementById('employeeType').innerHTML=`Employee Type:Faculty`;
 
-          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$${total_salary}`;
-          document.getElementById('employeeDeduction').innerHTML=`Deduction:$${deduction}`;
-          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$${net_pay}`;
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${total_salary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deduction}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${net_pay}`;
           console.log("Deduction:"+deduction);
           console.log("Net Pay:"+net_pay);
       }
@@ -183,15 +183,15 @@ let employee_code = document.getElementById('emp_code').value;
         console.log("Gross Salary:"+total_salary);
             deduction = ((total_salary*0.25)-19.20).toFixed(2);
             net_pay = (total_salary +2500-deduction).toFixed(2);
-            document.getElementById('employeeNumber').innerHTML=`Employee Number:${employee_number}`;
-            document.getElementById('employeeName').innerHTML=`Employee Name:${employee_name}`;
-            document.getElementById('employeeDepartment').innerHTML=`Department:${employee_department}`;
-            document.getElementById('employeeHours').innerHTML=`Number of hours worked:${employee_number}`;
+            document.getElementById('employeeNumber').innerHTML=`Employee Number: ${employee_number}`;
+            document.getElementById('employeeName').innerHTML=`Employee Name: ${employee_name}`;
+            document.getElementById('employeeDepartment').innerHTML=`Department: ${employee_department}`;
+            document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employee_number}`;
             document.getElementById('employeeType').innerHTML=`Employee Type:Faculty`;
   
-            document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$${total_salary}`;
-            document.getElementById('employeeDeduction').innerHTML=`Deduction:$${deduction}`;
-            document.getElementById('employeeNetPay').innerHTML=`Net Pay:$${net_pay}`;
+            document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${total_salary}`;
+            document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deduction}`;
+            document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${net_pay}`;
             console.log("Deduction:"+deduction);
               console.log("Net Pay:"+net_pay);
           }
@@ -203,15 +203,15 @@ let employee_code = document.getElementById('emp_code').value;
           console.log("Gross Salary:"+total_salary);
           deduction = ((total_salary*0.25)-33).toFixed(2);
           net_pay = (total_salary +2500 -deduction).toFixed(2);
-          document.getElementById('employeeNumber').innerHTML=`Employee Number:${employee_number}`;
-          document.getElementById('employeeName').innerHTML=`Employee Name:${employee_name}`;
-          document.getElementById('employeeDepartment').innerHTML=`Department:${employee_department}`;
-          document.getElementById('employeeHours').innerHTML=`Number of hours worked:${employee_number}`;
+          document.getElementById('employeeNumber').innerHTML=`Employee Number: ${employee_number}`;
+          document.getElementById('employeeName').innerHTML=`Employee Name: ${employee_name}`;
+          document.getElementById('employeeDepartment').innerHTML=`Department: ${employee_department}`;
+          document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employee_number}`;
           document.getElementById('employeeType').innerHTML=`Employee Type:Faculty`;
 
-          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$${total_salary}`;
-          document.getElementById('employeeDeduction').innerHTML=`Deduction:$${deduction}`;
-          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$${net_pay}`;
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${total_salary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deduction}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${net_pay}`;
           console.log("Deduction:"+deduction);
           console.log("Net Pay:"+net_pay);
       }
@@ -223,15 +223,15 @@ let employee_code = document.getElementById('emp_code').value;
           console.log("Gross Salary:"+total_salary);
             deduction = ((total_salary*0.25)-19.20).toFixed(2);
             net_pay = (total_salary +2500-deduction).toFixed(2);
-            document.getElementById('employeeNumber').innerHTML=`Employee Number:${employee_number}`;
-            document.getElementById('employeeName').innerHTML=`Employee Name:${employee_name}`;
-            document.getElementById('employeeDepartment').innerHTML=`Department:${employee_department}`;
-            document.getElementById('employeeHours').innerHTML=`Number of hours worked:${employee_number}`;
-            document.getElementById('employeeType').innerHTML=`Employee Type:Faculty`;
+            document.getElementById('employeeNumber').innerHTML=`Employee Number: ${employee_number}`;
+            document.getElementById('employeeName').innerHTML=`Employee Name: ${employee_name}`;
+            document.getElementById('employeeDepartment').innerHTML=`Department: ${employee_department}`;
+            document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employee_number}`;
+            document.getElementById('employeeType').innerHTML=`Employee Type: Faculty`;
   
-            document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$${total_salary}`;
-            document.getElementById('employeeDeduction').innerHTML=`Deduction:$${deduction}`;
-            document.getElementById('employeeNetPay').innerHTML=`Net Pay:$${net_pay}`;
+            document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${total_salary}`;
+            document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deduction}`;
+            document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${net_pay}`;
             console.log("Deduction:"+deduction);
               console.log("Net Pay:"+net_pay);
           }

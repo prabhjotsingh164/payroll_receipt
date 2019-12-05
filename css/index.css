@@ -33,6 +33,7 @@ label
 .payroll
 {
     display: block;
+    border: 1px solid black;
 }
 li
 {
