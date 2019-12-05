@@ -5,6 +5,7 @@ body
 
 .box
 {
+    display: grid;
     border: solid 1px black;
     margin-top: 2em;
     padding-bottom: 1em;
@@ -13,23 +14,9 @@ body
 }
 input
 {
-    margin-left:1em;
-}
-#emp_name
-{
-    margin-left: 7.7em;
-}
-#emp_department
-{
-    margin-left: 4.7em;
-}
-#emp_hours
-{
-    margin-left: 7.7em;
-}
-#emp_code
-{
-    margin-left: 2.5em;
+    margin-left:2.5em;
+    width:10em;
+    text-align: center;
 }
 
 label
@@ -41,29 +28,15 @@ label
 }
 .sub
 {
-    margin-left: 14.3em;
+    margin-left: 2.5em;
+}
+.payroll
+{
+    display: block;
+}
+li
+{
+    list-style-type: none;
+    margin-top: 1em;
 }
 
-/*.empname
-{
-
-    margin-left: 6.2em;
-    
-}
-.empdepartment
-{
-    margin-left: 3.4em;
-}
-.emphours
-{
-    margin-left:6.2em;
-
-}
-.empcode
-{
-    margin-left: 1.4em;
-}
-.sub
-{
-    margin-left: 10em;
-}*
